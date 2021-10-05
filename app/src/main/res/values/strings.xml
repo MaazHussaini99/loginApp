@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">login_IndivudualProject1</string>
+    <string name="title">Sign In</string>
+    <string name="username" />
+    <string name="password" />
+    <string name="Fname"></string>
+    <string name="Lname"></string>
+    <string name="email"></string>
+    <string name="dob"></string>
+
+
+    <string name="logIn">Log In</string>
+    <string name="welcome_page">Maaz Login App</string>
+    <string name="loginBTN">Existing user? Log in</string>
+    <string name="cabt">New user? Click here to create account</string>
+    <string name="titleCreateAcc">Please complete form below to register:</string>
+    <string name="hintFname">First Name</string>
+    <string name="hintLname">Last Name</string>
+    <string name="hintDOB">mm/dd/yyyy</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintUsername">Create a Username</string>
+    <string name="hintPassword">Create a Password</string>
+    <string name="submitCreateAcc">Create Account</string>
+    <string name="hintPasswordDialog">Password</string>
+    <string name="hintUsernameDialog">Username</string>
+    <string name="granted">Were In.</string>
+    <string name="welcome">"Welcome "</string>
+    <string name="displayFname">"First Name: "</string>
+    <string name="displayLname">"Last Name: "</string>
+    <string name="displayEmail">"Email: "</string>
+    <string name="displayDOB">"Date of Birth: "</string>
+</resources>

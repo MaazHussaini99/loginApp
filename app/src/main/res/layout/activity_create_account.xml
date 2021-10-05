@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/create_account_titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleCreateAcc"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/first_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintFname"
+        android:textSize="16sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/last_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintLname"
+        android:textSize="16sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/dob_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintDOB"
+        android:textSize="16sp"
+        android:inputType="date"/>
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEmail"
+        android:textSize="16sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/username_field_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintUsername"
+        android:textSize="16sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/password_field_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintPassword"
+        android:textSize="16sp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/complete_registration_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submitCreateAcc"
+        android:layout_gravity="end"
+        android:onClick="saveData"/>
+
+
+
+
+</LinearLayout>
