@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void successfulLogin(View view){
-        Intent intent = new Intent(this, Access.class);
+        Intent intent = new Intent(this, Question1.class);
         intent.putExtra("firstName", savedFname);
         intent.putExtra("lastName", savedLname);
         intent.putExtra("email", savedEmail);

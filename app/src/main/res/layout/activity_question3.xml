@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/points"
+            android:textAlignment="center"
+            android:textSize="100px"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TV1"
+            android:text="What is India’s rank on EIU’s Global Democracy Index 2019?"
+            android:textAlignment="center"
+            android:textSize="60px">
+        </TextView>
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp">
+
+            <RadioButton
+                android:id="@+id/questionOneA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="48th Rank"
+                android:textSize="60px"
+                android:onClick="firstRadioButtons"
+                />
+
+            <RadioButton
+                android:id="@+id/questionOneB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50th Rank"
+                android:textSize="60px"
+                android:onClick="firstRadioButtons"/>
+
+            <RadioButton
+                android:id="@+id/questionOneC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="53rd Rank"
+                android:textSize="60px"
+                android:onClick="firstRadioButtons"
+                />
+
+            <RadioButton
+                android:id="@+id/questionOneD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="51st Rank"
+                android:textSize="60px"
+                android:onClick="firstRadioButtons"
+                />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:onClick="moveToQuestion4"
+                android:text="Next" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

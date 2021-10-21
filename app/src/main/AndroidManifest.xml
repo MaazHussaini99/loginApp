@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_IndivudualProject1">
-        <activity android:name=".Access"></activity>
-        <activity android:name=".CreateAccount" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Final"></activity>
+        <activity android:name=".Question5" />
+        <activity android:name=".Question4" />
+        <activity android:name=".Question3" />
+        <activity android:name=".question2" />
+        <activity android:name=".Question1" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Access" />
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
